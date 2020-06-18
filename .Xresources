@@ -1,0 +1,47 @@
+! special
+*.foreground:   #dcdad5
+*.background:   #060505
+*.cursorColor:  #dcdad5
+
+! black
+*.color0:       #0b0b0a
+*.color8:       #b9ceea
+
+! red
+*.color1:       #171716
+*.color9:       #e9b7bd
+
+! green
+*.color2:       #292827
+*.color10:      #7bba71
+
+! yellow
+*.color3:       #42413f
+*.color11:      #6fb5af
+
+! blue
+*.color4:       #615f5d
+*.color12:      #edaeb6
+
+! magenta
+*.color5:       #878581
+*.color13:      #8ddad3
+
+! cyan
+*.color6:       #b3b0ac
+*.color14:      #6aa8e4
+
+! white
+*.color7:       #e4e2df
+*.color15:      #5aaea8
+
+URxvt.copyCommand: xclip -i selection clipboard
+URxvt.pasteCommand: xclip -o -selection clipboard
+
+URxvt.internalBorder: 0
+URxvt.cursorBlink: true
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+
+URxvt.font: xft:AurulentSansMono-Regular:size=10
+! URxvt.font: xft:Iosevka:size=10
