@@ -4,6 +4,7 @@ base 2-2
 binutils 2.34-5
 bison 3.6.3-1
 chromium 83.0.4103.106-1
+ctags 1:r20200106+ga3c87ab5-1
 fakeroot 1.24-2
 feh 3.4.1-1
 file 5.39-1
