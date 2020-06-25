@@ -26,7 +26,7 @@ set encoding=utf-8
 
 autocmd FileType * set noexpandtab
 
-set nu
+set nu rnu
 
 set shiftwidth=4
 set tabstop=4
