@@ -1,39 +1,39 @@
 ! special
-*.foreground:   #dcdad5
-*.background:   #060505
-*.cursorColor:  #dcdad5
+*.foreground:   #c7ccd1
+*.background:   #1c2023
+*.cursorColor:  #c7ccd1
 
 ! black
-*.color0:       #0b0b0a
-*.color8:       #b9ceea
+*.color0:       #1c2023
+*.color8:       #747c84
 
 ! red
-*.color1:       #171716
-*.color9:       #e9b7bd
+*.color1:       #c7ae95
+*.color9:       #c7ae95
 
 ! green
-*.color2:       #292827
-*.color10:      #7bba71
+*.color2:       #95c7ae
+*.color10:      #95c7ae
 
 ! yellow
-*.color3:       #42413f
-*.color11:      #6fb5af
+*.color3:       #aec795
+*.color11:      #aec795
 
 ! blue
-*.color4:       #615f5d
-*.color12:      #edaeb6
+*.color4:       #ae95c7
+*.color12:      #ae95c7
 
 ! magenta
-*.color5:       #878581
-*.color13:      #8ddad3
+*.color5:       #c795ae
+*.color13:      #c795ae
 
 ! cyan
-*.color6:       #b3b0ac
-*.color14:      #6aa8e4
+*.color6:       #95aec7
+*.color14:      #95aec7
 
 ! white
-*.color7:       #e4e2df
-*.color15:      #5aaea8
+*.color7:       #c7ccd1
+*.color15:      #f3f4f5
 
 URxvt.copyCommand: xclip -i selection clipboard
 URxvt.pasteCommand: xclip -o -selection clipboard
