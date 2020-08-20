@@ -34,7 +34,7 @@ fi
 
 xrandr --output VGA-1 --mode 2560x1440 || xrandr --output VGA-1 --mode 2560x1335
 
-picom -b
+# picom -b
 
 feh --bg-scale ~/wallpapers/3b8ad2c7b1be2caf24321c852103598a.jpg
 
