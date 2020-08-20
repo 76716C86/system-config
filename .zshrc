@@ -29,7 +29,15 @@ antibody bundle < ~/.zsh_plugins
 # export EDITOR=/usr/bin/nvim
 # export VISUAL=/usr/bin/nvim
 
-alias make='make -j`nproc`'
+alias make='make -j3'
 alias scan-build='scan-build -analyze-headers -V -stats'
 
 export CMAKE_BUILD_PARALLEL_LEVEL=`nproc`
+
+# git aliases begin
+alias gd='git diff'
+alias gc='git commit'
+alias gp='git push'
+
+alias gdn='git diff --name-only'
+# git aliases end
